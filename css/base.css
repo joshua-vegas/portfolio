@@ -1,0 +1,56 @@
+/* Reset */
+
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: arial, sans-serif;
+	font-size: 1.6em;
+	line-height: 1.5;
+}
+
+html, body, textarea, figure, label {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	padding-left: 2em;
+  list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+p:first-child, ul:first-child, ol:first-child, dl:first-child,
+blockquote:first-child, pre:first-child, h1:first-child, h2:first-child,
+h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+	margin-top: 0;
+}
+
+li p, li ul, li ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div, textarea, table, td, th, code, pre, samp {
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+}
+
+a img {
+	border: 0;
+}
